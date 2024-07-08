@@ -1,0 +1,217 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        E:/projects/vitasDB/build/CMakeFiles/3.27.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        E:/projects/vitasDB/build/CMakeFiles/3.27.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb"
+      binary: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb'
+        
+        Run Build Command(s): E:/cmake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_5e233/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_5e233.dir/build.make CMakeFiles/cmTC_5e233.dir/build
+        make[1]: Entering directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb'
+        Building C object CMakeFiles/cmTC_5e233.dir/CMakeCCompilerABI.c.obj
+        E:/LLVM/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5e233.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_5e233.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_5e233.dir/CMakeCCompilerABI.c.obj -c E:/cmake/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_5e233.exe
+        E:/LLVM/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_5e233.dir/objects1.rsp -o cmTC_5e233.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5e233.lib -Xlinker /pdb:E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb/cmTC_5e233.pdb -Xlinker /version:0.0  
+        make[1]: Leaving directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-mvkulb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l"
+      binary: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l'
+        
+        Run Build Command(s): E:/cmake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_bf551/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_bf551.dir/build.make CMakeFiles/cmTC_bf551.dir/build
+        make[1]: Entering directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l'
+        Building CXX object CMakeFiles/cmTC_bf551.dir/CMakeCXXCompilerABI.cpp.obj
+        E:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bf551.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_bf551.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_bf551.dir/CMakeCXXCompilerABI.cpp.obj -c E:/cmake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_bf551.exe
+        E:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_bf551.dir/objects1.rsp -o cmTC_bf551.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bf551.lib -Xlinker /pdb:E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l/cmTC_bf551.pdb -Xlinker /version:0.0  
+        make[1]: Leaving directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-r7b06l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "E:/cmake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "E:/cmake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5"
+      binary: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5'
+        
+        Run Build Command(s): E:/cmake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_2c2c3/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_2c2c3.dir/build.make CMakeFiles/cmTC_2c2c3.dir/build
+        make[1]: Entering directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5'
+        Building CXX object CMakeFiles/cmTC_2c2c3.dir/feature_tests.cxx.obj
+        E:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2c2c3.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_2c2c3.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2c2c3.dir/feature_tests.cxx.obj -c E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5/feature_tests.cxx
+        Linking CXX executable cmTC_2c2c3.exe
+        E:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_2c2c3.dir/objects1.rsp -o cmTC_2c2c3.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2c2c3.lib -Xlinker /pdb:E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5/cmTC_2c2c3.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2c2c3.dir/linkLibs.rsp 
+        make[1]: Leaving directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-pyjwj5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/cmake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "E:/cmake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "E:/cmake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "E:/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78"
+      binary: "E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78'
+        
+        Run Build Command(s): E:/cmake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_4e543/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_4e543.dir/build.make CMakeFiles/cmTC_4e543.dir/build
+        make[1]: Entering directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78'
+        Building CXX object CMakeFiles/cmTC_4e543.dir/feature_tests.cxx.obj
+        E:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_4e543.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_4e543.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_4e543.dir/feature_tests.cxx.obj -c E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78/feature_tests.cxx
+        Linking CXX executable cmTC_4e543.exe
+        E:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_4e543.dir/objects1.rsp -o cmTC_4e543.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4e543.lib -Xlinker /pdb:E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78/cmTC_4e543.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_4e543.dir/linkLibs.rsp 
+        make[1]: Leaving directory 'E:/projects/vitasDB/build/CMakeFiles/CMakeScratch/TryCompile-w1ry78'
+        
+      exitCode: 0
+...

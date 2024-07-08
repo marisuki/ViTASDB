@@ -1,0 +1,2 @@
+E:/projects/vitasDB/build/CMakeFiles/edit_cache.dir
+E:/projects/vitasDB/build/CMakeFiles/rebuild_cache.dir
